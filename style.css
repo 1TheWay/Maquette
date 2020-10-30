@@ -1,34 +1,65 @@
-.content {
-  width: 1110px;
-  padding-right: 54px;
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 55px;
-  margin: auto;
-  text-align: center;
+  padding-right: 55px;
 }
 
 header {
   background: #007765;
-  width: 2011px;
-  height: 84px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  margin: auto;
   position: fixed;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+[src = "img/logo.png"] {
+
+  width: 184px;
+  height: 45px;
+  padding-left: 50px;
 }
 
 nav {
-  position: absolute;
-  height: 29px;
-  left: 1187px;
-  top: 28px;
+  display: inline-block;
+  padding-right: 50px;
+  vertical-align: top;
+}
 
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+a {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
+
+  text-align: center;
+
+  color: #FFFFFF;
 }
 
-.first {
-  background: url("img/image.png");
+.hat {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-image: url("img/image.png");
   background-size: cover;
+  background-position: center center;
 }
 
 h1 {
@@ -38,10 +69,30 @@ h1 {
   font-size: 72px;
   line-height: 84px;
 
-  color: #FFFFFF;
   text-align: center;
-  padding-top: 160px;
-  padding-bottom: 160px;
+
+  color: #FFFFFF;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.problem {
+  padding-top: 48px;
+  padding-bottom: 92px;
+  background: #EEEEEE;
+}
+
+.intro {
+  padding-top: 48px;
+  padding-bottom: 92px;
+  background: #FFFFFF;
+}
+
+.team {
+  background: #EEEEEE;
+  padding-top: 58px;
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -50,11 +101,12 @@ h2 {
   font-weight: 500;
   font-size: 64px;
   line-height: 75px;
-  text-align: center;
-  color: #007765;
 
-  padding-top: 48px;
-  padding-bottom: 16px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 16px;
+
+  color: #007765;
 }
 
 p {
@@ -63,40 +115,91 @@ p {
   font-weight: normal;
   font-size: 32px;
   line-height: 37px;
-  text-align: left;
 
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   color: #000000;
 }
 
-.second {
-  background: url("img/image (1).png");
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url("img/image (1).png");
   background-size: cover;
-  margin-top: 92px;
+  background-position: center center;
 }
 
-blockquote {
-  font-family: Roboto;
+.hero__message {
+  font-family: Roboto, sans-serif;
   font-style: italic;
   font-weight: 500;
   font-size: 48px;
   line-height: 56px;
+
   text-align: center;
 
-  color: #FFFFFF;
-
-  padding-top: 128px;
-  padding-bottom: 127px;
-
+  color: #fff;
 }
 
 .logo {
-  display: inline-block;
   width: 115px;
   height: 115px;
+  float: left;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-.near_logo {
-  display: inline-block;
-  padding-bottom: 40px;
+.logo__message {
+  padding-left: 163px;
+  margin-right: 17px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 168px;
+  height: 168px;
+  padding-left: 106px;
+  padding-right: 106px;
+}
+
+
+table th {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #007765;
+}
+
+table td {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
+}
+
+table {
+  padding-bottom: 82px;
+  margin: auto;
+}
+
+footer {
+  background: #333333;
+  padding-top: 50px;
+  padding-bottom: 62px;
+
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
 }
