@@ -9,33 +9,27 @@
 
 header {
   background: #007765;
-  padding-top: 20px;
+  padding-top: 28px;
   padding-bottom: 19px;
   margin: auto;
   position: fixed;
   text-align: center;
 
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 55px;
-  padding-right: 55px;
+  margin: auto;
+  width: 100%;
 }
 
 [src = "img/logo.png"] {
-
   width: 184px;
   height: 45px;
-  padding-left: 50px;
-}
-
-nav {
-  display: inline-block;
-  padding-right: 50px;
-  vertical-align: top;
+  padding-right: 502px;
 }
 
 ul {
   list-style: none;
+  display: inline;
+  padding-left: 0px;
+  vertical-align: top;
 }
 
 li {
@@ -48,8 +42,6 @@ a {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-
-  text-align: center;
 
   color: #FFFFFF;
 }
