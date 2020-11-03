@@ -1,2 +1,2 @@
 # Maquette
-It's the first and the second hometask from Stepric course "Web-development for beginners: HTML and CSS".
+It's the third hometask from Steprik course "Web-development for beginners: HTML and CSS".
